@@ -1,0 +1,104 @@
+body{
+	font-size: 16px;
+	font-family: 'Rajdhani', sans-serif;
+}
+.contact
+{
+	font-size: 11px;
+	margin-top: 10px;
+	margin-right: 5%;
+	margin-bottom: 10px;
+}
+.contact span{
+	font-size: 18px;
+	transform: translateY(13%);
+	margin-left: 12px;
+	margin-right: 4px;
+}
+.menubar{
+	margin-left: 5%;
+	margin-right: 4%;
+}
+.menubar .logo{
+	font-size: 24px;
+}
+.menubar .logo span{
+	font-size: 44px;
+	color: #40c0c2 ;
+}
+.navigations a{
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+	padding: 3%;
+}
+.navigations a:hover{
+	background-color: #40c0c2;
+	color: #f1f1f1;
+	text-decoration: none;
+	border-radius: 0px;
+}
+.slider{
+	min-height: 70vh;
+	background-image: url(../img/slider.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.blur{
+	z-index: 2;
+	background-color: rgba(0,0,0,0.4);
+	color: #ffffff;
+	min-height: 70vh;
+}
+
+/*Carousel property*/
+.owl-carousel.owl-loading {
+	opacity: 1;
+}
+.owl-carousel .owl-nav .owl-next{
+	position: absolute;
+	left: 2%;
+	top: 60%;
+	font-size: 100px;
+}
+.owl-carousel .owl-nav .owl-prev{
+	position: absolute;
+	right: 2%;
+	top: 60%;
+	font-size: 100px;
+}
+.owl-carousel .owl-nav .owl-next:hover,.owl-carousel .owl-nav .owl-prev:hover{
+	background-color: transparent;
+	color: #f1f1f1;
+	border:none;
+}
+.owl-carousel .owl-dot {
+	background-color: transparent;
+	border-radius: 100%;
+	border:1px solid white;
+	display: inline-block;
+	padding: 5px 5px;
+	margin-right: 5px;
+}
+.owl-carousel .owl-dots{
+	position: absolute;
+	align-items: bottom;
+	left: 45%;
+	transform: translateY(500%);
+}
+.owl-carousel .owl-dot.active{
+	background-color: #40c0c2;
+	border-color:#40c0c2; 
+}
+.carousel-view h1{
+	font-size: 55px;
+}
+.carousel-view h1, .carousel-view h3{
+	margin-left: 10%;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+.carousel-view h3{
+	margin-top: 13%;
+	font-size: 30px;
+}
