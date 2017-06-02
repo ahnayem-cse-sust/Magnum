@@ -245,3 +245,123 @@ body{
 	background-image: url(../img/spicy.png);
 	background-size: 120% 100%;
 }
+.meet-title{
+	height: 65vh;
+	padding-top: 25vh;
+	background-color: #40c0c2;
+	color: #fff;
+}
+.meet-title h3,.meet-title h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 17vh;
+}
+.meet-title h3{
+	font-size: 35px;
+}
+.meet-title h1{
+	font-size: 50px;
+}
+.meet-1{
+	height: 65vh;
+	background-image: url(../img/jhon.png);
+	background-size: 120% 100%;
+	background-repeat: no-repeat;
+	color: #fff;
+	background-position: top;
+	z-index: 2;
+}
+.meet-1 h2{
+	padding-top: 40vh;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+.meet-1 h3{
+	margin-top: 0px;
+}
+.nopad{
+	padding: 0px;
+}
+.blur-4{
+	height: 65vh;
+}
+.meet-1:hover .blur-2{
+	visibility: inherit;
+}
+.meet-1 a{
+	color: #fff;
+	margin: 20px;
+	font-size: 23px;
+}
+.meet-1 a:hover{
+	color: #40c0c2;
+}
+.meet-2{
+	background-image: url(../img/lady.png);
+}
+.meet-3{
+	background-image: url(../img/john-2.png);
+}
+.blogs h3{
+	transform: translateY(0%);
+}
+.blogs .project-a-1{
+	background-image: url(../img/spicy.png);
+	background-size: 130% 100%;
+}
+.blogs .project-details{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.blogs h2{
+	margin-bottom: 10px;
+	color: #40c0c2;
+}
+.blogs a{
+	font-size: 17px;
+}
+.blogs i{
+	margin-right: 10px;
+}
+.blogs .live a{
+	font-size: 35px;
+}
+.blogs .blog-3{
+	background-image: url(../img/cow.png);
+}
+.blogs .blog-2{
+	background-image: url(../img/city.png);
+}
+.navigations h2{
+	background-color: #40c0c2;
+	margin: 0px;
+	padding: 4%;
+}
+.footer .menubar{
+	margin-right: 0px;
+}
+.footer i{
+	padding: 5% 7%;
+	font-size: 22px;
+}
+.footer a{
+	padding: 0px;
+}
+.footer a:hover{
+	background-color: #fff;
+	color: black;
+}
+.footer i:hover{
+	background-color: #40c0c2;
+	color: #fff;
+}
+.navigations .row{
+	margin-right: 0px;
+}
+.footer .logo{
+	padding-top: 2%;
+}
+.footer .logo p{
+	line-height: 0px;
+	font-size: 16px;
+}
