@@ -57,14 +57,14 @@ body{
 }
 .owl-carousel .owl-nav .owl-next{
 	position: absolute;
-	left: 2%;
-	top: 65%;
+	left: 2vh;
+	top: 30vh;
 	font-size: 100px;
 }
 .owl-carousel .owl-nav .owl-prev{
 	position: absolute;
-	right: 2%;
-	top: 65%;
+	right: 2vh;
+	top: 30vh;
 	font-size: 100px;
 }
 .owl-carousel .owl-nav .owl-next:hover,.owl-carousel .owl-nav .owl-prev:hover{
@@ -84,7 +84,7 @@ body{
 	position: absolute;
 	align-items: bottom;
 	left: 45%;
-	transform: translateY(700%);
+	transform: translateY(25vh);
 }
 .owl-carousel .owl-dot.active{
 	background-color: #40c0c2;
@@ -99,12 +99,12 @@ body{
 	letter-spacing: 2px;
 }
 .carousel-view h3{
-	margin-top: 17%;
+	margin-top: 35vh;
 	font-size: 30px;
 }
-.owl-item{
+/*.owl-item{
 	margin-right: 0px !important;
-}
+}*/
 /*Why choose style*/
 .why-choose{
 	background-color: #5abec4;
@@ -129,7 +129,7 @@ body{
 	margin-left: 15px;
 	margin-right: 15px;
 }
-.why-choose-2{
+/*.why-choose-2{
 	padding: 15% 5%;
 	color: #ffffff;
 }
@@ -141,11 +141,16 @@ body{
 	font-size: 13px;
 	margin-top: 40px;
 
-}
+}*/
+
 /*illustration design*/
 .illustration{
 	padding-top: 25%;
-	padding-bottom: 20%;
+	background-color: #40c0c2;
+	color: #ffffff;
+}
+.illustration p{
+	padding-bottom: 13%;
 }
 .illustration img{
 	margin-left: auto;
@@ -223,7 +228,7 @@ body{
 	background-size: 150% 100%;
 }
 .blur-2{
-	transition: all 0.4s ease-in-out;
+	/*transition: all 0.4s ease-in-out;*/
 	height: 60vh;
 }
 .blur-3{
@@ -330,7 +335,7 @@ body{
 	background-image: url(../img/cow.png);
 }
 .blogs .blog-2{
-	background-image: url(../img/city.png);
+	background-image: url(../img/City.png);
 }
 .navigations h2{
 	background-color: #40c0c2;
@@ -364,4 +369,72 @@ body{
 .footer .logo p{
 	line-height: 0px;
 	font-size: 16px;
+}
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+@media only screen and (max-width: 500px) {
+    body{
+    	font-size: 14px;
+    }
+    .contact
+    {
+    	font-size: 9px;
+    	margin-bottom: 0px;
+    	text-align: center;
+    }
+    .contact span{
+    	font-size: 16px;
+    	transform: translateY(0%);
+    	margin-left: 12px;
+    	margin-right: 4px;
+    }
+    .menubar{
+    	margin-left: 5px;
+    	margin-right: 5px;
+    	text-align: center;
+    }
+    .navigations{
+    	text-align: center;
+    }
+    .navigations a{
+    	font-size: 13px;
+    	font-weight: 400;
+    	color: black;
+    	padding: 1%;
+    }
+    .menubar .logo{
+    	font-size: 22px;
+    }
+    .menubar .logo span{
+    	font-size: 36px;
+    }
+    .carousel-view h3{
+    	font-size: 16px;
+    	margin-top: 30vh;
+    }
+    .carousel-view h1{
+    	font-size: 22px;
+    	margin-top: 0px;
+    }
+    .owl-carousel .owl-nav .owl-prev,.owl-carousel .owl-nav .owl-next{
+    	font-size: 35px;
+    }
+    .our-project{
+    	text-align: center;
+    }
+    .our-project h3{
+    	margin-top: 20vh;
+    }
+    .project-a{
+    	background-size: 150% 100%;   	
+    }
+    .footer i{
+    	font-size: 18px;
+    	padding: 5% 5%;
+    }
+    .navigations .row{
+    	margin-left: -5px;
+    }
 }
