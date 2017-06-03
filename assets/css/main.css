@@ -106,9 +106,6 @@ body{
 	margin-right: 0px !important;
 }*/
 /*Why choose style*/
-.why-choose{
-	background-color: #5abec4;
-}
 .why-choose h2{
 	font-size: 35px; 
 }
@@ -204,11 +201,6 @@ body{
 	padding-right: 50%;
 	color: #ffffff;
 }
-.blur-2{
-	z-index: -1000;
-	background-color: rgba(0,0,0,0.7);
-	visibility: hidden;
-}
 .project-details h2{
 	margin-bottom: 10%;
 }
@@ -245,6 +237,9 @@ body{
 .blur-2{
 	/*transition: all 0.4s ease-in-out;*/
 	height: 60vh;
+	z-index: -1000;
+	background-color: rgba(0,0,0,0.7);
+	visibility: hidden;
 }
 .blur-3{
 	height: 120vh;
