@@ -110,7 +110,7 @@ body{
 	background-color: #5abec4;
 }
 .why-choose h2{
-	font-size: 35px;
+	font-size: 35px; 
 }
 .why-choose h1{
 	font-size: 55px;
@@ -118,6 +118,7 @@ body{
 .why-choose h2,.why-choose h1{
 	line-height: 18px;
 	color: #ffffff;
+	margin-left: 20%;
 }
 .why-choose .right{
 	margin-right: 25%;
@@ -169,7 +170,9 @@ body{
 	border-left: 1px solid #e1e1e1;
 }
 .why-choose{
+	padding-top: 15vh;
 	background-color: #5abec4;
+	height: 55vh;
 }
 /*Project-a style property*/
 .project-a a{
