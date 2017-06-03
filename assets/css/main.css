@@ -109,9 +109,6 @@ body{
 .why-choose{
 	background-color: #5abec4;
 }
-.why-choose-1{
-	padding: 17% 8%;	
-}
 .why-choose h2{
 	font-size: 35px;
 }
@@ -145,19 +142,34 @@ body{
 
 /*illustration design*/
 .illustration{
-	padding-top: 25%;
-	background-color: #40c0c2;
-	color: #ffffff;
+	padding-top: 15vh;
+	height: 55vh;
 }
 .illustration p{
 	padding-bottom: 13%;
+	color: #ffffff;
 }
-.illustration img{
+.illustration:hover i{ 
+	font-size: 70px;
+}
+.illustration:hover{
+	padding-top: 12vh;
+	background-color: #40c0c2;
+	color: #ffffff;
+}
+
+.illustration i{
+	font-size: 65px;
+}
+/*.illustration img{
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 .Simplicity{
 	border-left: 1px solid #e1e1e1;
+}
+.why-choose{
+	background-color: #5abec4;
 }
 /*Project-a style property*/
 .project-a a{
