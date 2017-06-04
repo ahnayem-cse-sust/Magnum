@@ -106,14 +106,8 @@ body{
 	margin-right: 0px !important;
 }*/
 /*Why choose style*/
-.why-choose{
-	background-color: #5abec4;
-}
-.why-choose-1{
-	padding: 17% 8%;	
-}
 .why-choose h2{
-	font-size: 35px;
+	font-size: 35px; 
 }
 .why-choose h1{
 	font-size: 55px;
@@ -121,6 +115,7 @@ body{
 .why-choose h2,.why-choose h1{
 	line-height: 18px;
 	color: #ffffff;
+	margin-left: 20%;
 }
 .why-choose .right{
 	margin-right: 25%;
@@ -145,19 +140,36 @@ body{
 
 /*illustration design*/
 .illustration{
-	padding-top: 25%;
-	background-color: #40c0c2;
-	color: #ffffff;
+	padding-top: 15vh;
+	height: 55vh;
 }
 .illustration p{
 	padding-bottom: 13%;
+	color: #ffffff;
 }
-.illustration img{
+.illustration:hover i{ 
+	font-size: 70px;
+}
+.illustration:hover{
+	padding-top: 12vh;
+	background-color: #40c0c2;
+	color: #ffffff;
+}
+
+.illustration i{
+	font-size: 65px;
+}
+/*.illustration img{
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 .Simplicity{
 	border-left: 1px solid #e1e1e1;
+}
+.why-choose{
+	padding-top: 15vh;
+	background-color: #5abec4;
+	height: 55vh;
 }
 /*Project-a style property*/
 .project-a a{
@@ -188,11 +200,6 @@ body{
 	padding-bottom: 8%;
 	padding-right: 50%;
 	color: #ffffff;
-}
-.blur-2{
-	z-index: -1000;
-	background-color: rgba(0,0,0,0.7);
-	visibility: hidden;
 }
 .project-details h2{
 	margin-bottom: 10%;
@@ -230,13 +237,20 @@ body{
 .blur-2{
 	/*transition: all 0.4s ease-in-out;*/
 	height: 60vh;
+	z-index: -1000;
+	background-color: rgba(0,0,0,0.7);
+	visibility: hidden;
 }
 .blur-3{
 	height: 120vh;
 }
-.project-a:hover .blur-2{
+.blur-show{
 	visibility: inherit;
 }
+/*.project-a:hover .blur-2{
+	visibility: inherit;
+	transition-delay: .3s;
+}*/
 .project-a-2{
 	background-image: url(../img/boat.png);
 }
