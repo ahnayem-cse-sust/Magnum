@@ -244,9 +244,13 @@ body{
 .blur-3{
 	height: 120vh;
 }
-.project-a:hover .blur-2{
+.blur-show{
 	visibility: inherit;
 }
+/*.project-a:hover .blur-2{
+	visibility: inherit;
+	transition-delay: .3s;
+}*/
 .project-a-2{
 	background-image: url(../img/boat.png);
 }
