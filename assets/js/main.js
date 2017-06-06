@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	/*Carousel view scripts*/
     $("#slide-show").owlCarousel({
         items: 1,
@@ -11,41 +12,7 @@ $(document).ready(function(){
         autoHeight: true
     });
 
-/*    $(".project-a-11").mouseenter( function () {
-        var $this = $("#blur11");
-        var effect = 'zoomIn ';
-
-        $this
-            .addClass('animated blur-show ' + effect)
-            .on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-            $this.removeClass('animated ' + effect);
-        });
-    });
-
-    $(".project-a-11").mouseleave( function (){
-        $("#blur11").removeClass("blur-show");
-    });*/
-
-/*    for(i=1;i<=11;i++){
-        var hoverClass = "#blur-animated-" + i;
-        var blurClass = "#blur" + i;
-        
-
-        $(hoverClass).mouseenter( function () {
-            var $this = $(blurClass);
-            var effect = 'zoomIn ';
-
-            $this
-                .addClass('animated blur-show ' + effect)
-                .on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-                $this.removeClass('animated ' + effect);
-            });
-        });
-
-        $(hoverClass).mouseleave( function (){
-            $(blurClass).removeClass("blur-show");
-        });
-    }*/
+    /*Animation scripts*/
 
     $.each([ 1, 2, 3, 4, 5, 6, 7, 8,9,10,11], function( index, value ) {
       
@@ -62,6 +29,29 @@ $(document).ready(function(){
                 .on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
                 $this.removeClass('animated ' + effect);
             });
+
+
+            if(value == 1){
+
+                var textAnimate = '#details' + value;
+
+                $(textAnimate).addClass("animated slideInLeft").
+                on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                    $(textAnimate).removeClass("animated slideInLeft");
+                });
+
+            }
+            else if(value != 6 || value != 7 || value != 8)
+            {
+
+                var textAnimate = '#details' + value;
+
+                $(textAnimate).addClass("animated zoomIn").
+                on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                    $(textAnimate).removeClass("animated zoomIn");
+                });               
+            }
+
         });
 
         $(hoverClass).mouseleave( function (){
