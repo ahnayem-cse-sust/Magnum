@@ -55,7 +55,7 @@ $(document).ready(function(){
 
         $(hoverClass).mouseenter( function () {
             var $this = $(blurClass);
-            var effect = 'zoomIn ';
+            var effect = 'fadeIn ';
 
             $this
                 .addClass('animated blur-show ' + effect)
