@@ -24,6 +24,36 @@ $(document).ready(function(){
         }
     });
 
+   /* $(window).scroll(function(){
+       var scrollTop = $(window).scrollTop();
+        if(scrollTop>100){
+             $("#nav").addClass("fixed-menu animated fadeInDown");
+         }
+        else{
+            $("#nav").removeClass("fixed-menu animated fadeInDown");
+    }
+    });*/
+
+    var scrollLast = 100;
+
+    $(window).scroll(function(){
+
+        var scrollTop = $(window).scrollTop();
+
+        
+            if(scrollTop>100)
+            {
+                $("#nav").addClass("fixed-menu animated fadeInDown");
+            }
+            else
+            {
+                $("#nav").removeClass("fixed-menu animated fadeInDown");
+            }
+
+        
+        
+    });
+
     /*Animation scripts*/
 
     /*$("#menu-click").click(function(event){
