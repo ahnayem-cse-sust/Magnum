@@ -12,7 +12,23 @@ $(document).ready(function(){
         autoHeight: true
     });
 
+        /*Smoth transition script*/
+     // This is a functions that scrolls to #{blah}link
+    $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+    });
+
     /*Animation scripts*/
+
+    /*$("#menu-click").click(function(event){
+            event.preventDefault();
+        });*/
 
     $.each([ 1, 2, 3, 4, 5, 6, 7, 8,9,10,11], function( index, value ) {
       

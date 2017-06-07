@@ -16,8 +16,8 @@ body{
 	margin-right: 4px;
 }
 .menubar{
-	margin-left: 5%;
-	margin-right: 4%;
+	padding-left: 5%;
+	padding-right: 4%;
 }
 .menubar .logo{
 	font-size: 24px;
@@ -37,6 +37,14 @@ body{
 	color: #f1f1f1;
 	text-decoration: none;
 	border-radius: 0px;
+}
+.fixed-menu{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: #40c0c2;
+	z-index: 1000;
 }
 .slider{
 	min-height: 80vh;
@@ -361,7 +369,6 @@ body{
 }
 .footer i{
 	padding: 5% 7%;
-	font-size: 22px;
 }
 .footer a{
 	padding: 0px;
@@ -384,7 +391,26 @@ body{
 	line-height: 0px;
 	font-size: 16px;
 }
-
+.address-bottom{
+	padding-top: 50%;
+	padding-bottom: 20%;
+}
+.address-bottom h5{
+	padding-bottom: 3%;
+}
+form{
+	padding-top: 10%;
+	padding-left: 20%;
+	border-left: 1px solid #f1f1f1;
+}
+button{
+	background-color: #40c0c2;
+	color: #fff;
+}
+.btn:hover{
+	color: #fff;
+	background-color: #337ab7;
+}
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
